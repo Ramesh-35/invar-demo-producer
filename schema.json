@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "order_id": { "type": "string" },
-    "amount_cents": { "type": "integer" }
+    "amount_micro_units": { "type": "integer" }
   },
   "required": ["order_id", "amount_cents"]
 }
